@@ -8,18 +8,18 @@ int main(){
     const int A2 = 20;
     const int AEn = 13; 
 
-    pinMode (A1, int OUTPUT) ;
-    pinMode (A2, int OUTPUT) ;
-    pinMode (AEn, int PWM_OUTPUT) ;
+    pinMode (A1, OUTPUT) ;
+    pinMode (A2, OUTPUT) ;
+    pinMode (AEn, PWM_OUTPUT) ;
 
     
     const int B1 = 26;
     const int B2 = 21;
     const int BEn = 19;
 
-    pinMode (A1, int OUTPUT) ;
-    pinMode (A2, int OUTPUT) ;
-    pinMode (AEn, int PWM_OUTPUT) ;
+    pinMode (A1, OUTPUT) ;
+    pinMode (A2, OUTPUT) ;
+    pinMode (AEn, PWM_OUTPUT) ;
 
     while (1){
         digitalWrite (A1, high) ;
